@@ -1,0 +1,24 @@
+.header{
+    display : flex;
+    background-color:orange;
+    justify-content: space-between;
+    border: 10px solid;
+}
+.menu{
+    justify-content: right ;
+    background-color:orange;
+}
+.item{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color:orange;
+    flex-grow: 4;
+    border:4px solid;
+    border-color ="#00";
+    margin-top: 50px;
+}
+.footer{
+    display: flex;
+    justify-content:flex-end;
+}
